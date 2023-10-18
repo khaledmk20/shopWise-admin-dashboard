@@ -22,7 +22,7 @@ export default async function handle(req, res) {
       description,
       price,
       images,
-      category,
+      category: category || undefined,
       properties,
     });
     res.json(productDoc);
@@ -33,7 +33,14 @@ export default async function handle(req, res) {
       req.body;
     await Product.updateOne(
       { _id },
-      { title, description, price, images, category, properties }
+      {
+        title,
+        description,
+        price,
+        images,
+        category: category || undefined,
+        properties,
+      }
     );
     res.json(true);
   }
