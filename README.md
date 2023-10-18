@@ -13,11 +13,6 @@ Welcome to the Shop Wise Admin Dashboard repository. This admin dashboard is des
 - **Promotions and Marketing**: Run marketing campaigns, create discounts, and track their performance, all from a centralized interface.
 - **Inventory Control**: Stay on top of your inventory levels, receive low-stock alerts, and optimize stock management.
 - **Data Protection**: Ensure the security of customer data with robust security measures and encryption.
-- **Custom Branding**: Tailor the website's look and feel to match your brand's identity and vision.
-- **Multi-Store Management**: Streamline the management of multiple stores, promoting scalability.
 
-## Getting Started
 
-To set up the Shop Wise Admin Dashboard on your system, follow these steps:
-
-1. **Clone the Repository**:
+  [Check it out](https://shopwise-admin-dashboard.vercel.app/)
